@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const signupForm        = document.getElementById('signup');
   const loginEmail        = document.getElementById('login-email');
   const loginPassword     = document.getElementById('login-password');
-  alert(1)
+  
   // panels 전환
   signUpBtnPanel.addEventListener('click', () => {
     container.classList.add('sign-up-mode');
